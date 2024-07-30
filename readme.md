@@ -4,7 +4,14 @@ Reproduces https://github.com/jazzband/pip-tools/issues/2118
 
 # Steps to reproduce
 
-Run `make requirements`, or:  
+Clone this repository:
+
+```bash
+git clone git@github.com:khink/pip-tools-issue-2118.git
+cd pip-tools-issue-2118
+```
+
+Run `make requirements`, or:
 
 ```bash
 python3 -m venv env
